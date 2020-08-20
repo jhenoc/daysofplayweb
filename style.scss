@@ -1,0 +1,222 @@
+.encabezado {
+    background-color: #343a40;
+    color: #dbdbdd;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    width: 100%;
+    padding: 5px;
+    align-self: center;
+}
+
+.h5{
+    color: #dbdbdd;
+}    
+/*inicio de menu*/
+/*fin de menu*/
+body {
+    background-image: linear-gradient(rgb(43, 112, 223),rgb(0,16,42));
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+}
+
+/*Inicio de presentacion*/
+.row {
+    justify-content: center;
+}
+
+/*inicio de Lanzamientos*/
+.mos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;   
+}
+
+.titlebody {
+    text-align: center;
+    width: 150px;
+    border: 1px solid black;
+}
+
+.releaseImage {
+    padding: 5px;
+}
+.releaseImage:hover{
+    transform: scale(1.1);
+}
+/*fin de Lanzamientos*/
+/*Inicio de Ofertas*/
+.h5black{
+    color: black;
+    font-size: 20px;
+}
+.sale,
+.indexStore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 500px;
+    width: auto;
+    margin: 10px;
+    background-color: #dbdbdd;
+    padding: 10px;
+    justify-content: center;
+}
+
+/*Fin de Ofertas*/
+/*Inicio de tienda*/
+#tienda, #tienda2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+#tienda2{
+    color: #dbdbdd;
+}
+
+.product1 {
+    width: 220px;
+    height: 350px;
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+.imageBox {
+    padding: 5px;
+}
+
+.textBox {
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Fin de tienda*/
+
+#lanzamientos,
+.sale,
+.footer{
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+/*Inicio de footer*/
+footer {
+    background-color: #343a40;
+    color: white;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    align-self: center;
+
+}
+
+.foot {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.susc,
+.cards {
+    height: 80px;
+    width: 400px;
+    padding: 10px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.inputmail{
+    width: 300px;
+    border: 0px;
+    text-decoration: none;
+    color: white;
+}
+.submitText{
+    background-color: #0052d6;
+    width: 60px;
+    border: none;
+    color: white;
+}
+.inputMail, .submitText{
+    height: 25px;
+}
+.footText {
+    text-align: center;
+}
+.creditCards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+.namecard1, .namecard2{
+    padding: 5px;
+    border-right: 1.5px solid white;
+}
+.namecard1, .namecard2, .namecard3{
+    font-size: 10px;
+    padding: 5px;
+}
+/*Fin de footer*/
+
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.bodysec {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+}
+
+.clasif {
+    display: flex;
+    align-items: center;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+}
+
+#filtros {
+    padding: 5px;
+    display: flex;
+}
+.categories{
+    color: #dbdbdd;
+}
+.pagoscont, .pregcont, .contactForm, .maincontent__text{
+    color: #dbdbdd;
+}
+.product1:hover{
+    transform: scale(1.1);
+}
+.maincontent{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+}
+.productSale{
+    justify-content: center;
+    display: inline-block;
+}
