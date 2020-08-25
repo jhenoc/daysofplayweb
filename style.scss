@@ -8,13 +8,14 @@
     align-self: center;
 }
 
-.h5{
+.h5 {
     color: #dbdbdd;
-}    
+}
+
 /*inicio de menu*/
 /*fin de menu*/
 body {
-    background-image: linear-gradient(rgb(43, 112, 223),rgb(0,16,42));
+    background-image: linear-gradient(rgb(43, 112, 223), rgb(0, 16, 42));
     font-family: 'Lato', sans-serif;
     margin: 0px;
     display: flex;
@@ -33,7 +34,8 @@ body {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: column;   
+    flex-direction: column;
+    margin-top: 10px;
 }
 
 .titlebody {
@@ -45,15 +47,18 @@ body {
 .releaseImage {
     padding: 5px;
 }
-.releaseImage:hover{
+
+.releaseImage:hover {
     transform: scale(1.1);
 }
+
 /*fin de Lanzamientos*/
 /*Inicio de Ofertas*/
-.h5black{
+.h5black {
     color: black;
     font-size: 20px;
 }
+
 .sale,
 .indexStore {
     display: flex;
@@ -69,14 +74,16 @@ body {
 
 /*Fin de Ofertas*/
 /*Inicio de tienda*/
-#tienda, #tienda2 {
+#tienda,
+#tienda2 {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-#tienda2{
+
+#tienda2 {
     color: #dbdbdd;
 }
 
@@ -105,7 +112,7 @@ body {
 
 #lanzamientos,
 .sale,
-.footer{
+.footer {
     font-family: 'Lato', sans-serif;
     color: rgb(0, 0, 0);
 }
@@ -138,39 +145,51 @@ footer {
     align-items: center;
     flex-direction: column;
 }
-.inputmail{
+
+.inputmail {
     width: 300px;
     border: 0px;
     text-decoration: none;
     color: white;
 }
-.submitText{
+
+.submitText {
     background-color: #0052d6;
     width: 60px;
     border: none;
     color: white;
 }
-.inputMail, .submitText{
+
+.inputMail,
+.submitText {
     height: 25px;
 }
+
 .footText {
     text-align: center;
 }
-.creditCards{
+
+.creditCards {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 300px;
 }
-.namecard1, .namecard2{
+
+.namecard1,
+.namecard2 {
     padding: 5px;
     border-right: 1.5px solid white;
 }
-.namecard1, .namecard2, .namecard3{
+
+.namecard1,
+.namecard2,
+.namecard3 {
     font-size: 10px;
     padding: 5px;
 }
+
 /*Fin de footer*/
 
 
@@ -200,23 +219,34 @@ p {
     padding: 5px;
     display: flex;
 }
-.categories{
+
+.categories {
     color: #dbdbdd;
 }
-.pagoscont, .pregcont, .contactForm, .maincontent__text{
+
+.pagoscont,
+.pregcont,
+.contactForm,
+.maincontent__text {
     color: #dbdbdd;
 }
-.product1:hover{
+
+.product1:hover {
     transform: scale(1.1);
 }
-.maincontent{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    width: 100%;
-    height: auto;
-    align-items: flex-start;
+
+.maincontent__pagos {
+    padding-top: 10px;
 }
-.productSale{
+
+.productSale {
     justify-content: center;
     display: inline-block;
+}
+
+.backg {
+    background-color: #dbdbdd;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
 }

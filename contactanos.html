@@ -37,53 +37,134 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt="logo">
-              </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="juegosdeps4.html">Juegos PS4</a>
-                    <a class="nav-item nav-link" href="mediosdepago.html">Medios de pago</a>
-                    <a class="nav-item nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
-                    <a class="nav-item nav-link active" href="contactanos.html">Contáctanos</a>
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="juegosdeps4.html">Juegos PS4</a>
+                        <a class="nav-item nav-link" href="mediosdepago.html">Medios de pago</a>
+                        <a class="nav-item nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+                        <a class="nav-item nav-link active" href="contactanos.html">Contáctanos</a>
 
+                    </div>
                 </div>
-            </div>
             </div>
 
         </nav>
     </div>
     <div class="container">
-        <div class="contactForm">
-            <h3 class="h5">Contáctanos</h3>
-            <form>
-                <div>Nombre y apellido</div>
-                <input type="text" name="Nombre" />
-                <div>Seleccionar sexo</div>
-                <select name="Sexo">
-                    <option value="">Click acá</option>
-                    <option value="H">Hombre</option>
-                    <option value="M">Mujer</option>
-                </select>
-                <div>E-mail</div>
-                <input type="email" name="nombre@email.com" />
-                <div>Suscríbete a nuestro sitio</div>
-                <input type="checkbox" name="Suscríbete" value="1">
-                <div>Escribe tus comentarios</div>
-                <textarea name="Escribe algo" id="" cols="30" rows="10"></textarea>
-                <div>
-                    <input class="submitText" type="reset" name="Reestablacer">
-                    <input class="submitText" type="submit" name="Enviar" value="Enviar">
-                </div>
+        <div class="backg">
+            <div class="container">
 
+                <!--Section: Contact v.2-->
+                <section class="mb-4">
 
-            </form>
+                    <!--Section heading-->
+                    <h2 class="h1-responsive font-weight-bold text-center my-4">Contactános</h2>
+                    <!--Section description-->
+                    <p class="text-center w-responsive mx-auto mb-5">Tienes alguna duda? Envíanos tu consulta y un
+                        asesor se
+                        pondrá en contacto con vos.</p>
+
+                    <div class="row">
+
+                        <!--Grid column-->
+                        <div class="col-md-9 mb-md-0 mb-5">
+                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="name" name="name" class="form-control">
+                                            <label for="name" class="">Tu nombre</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                    <!--Grid column-->
+                                    <div class="col-md-6">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="email" name="email" class="form-control">
+                                            <label for="email" class="">Tu email</label>
+                                        </div>
+                                    </div>
+                                    <!--Grid column-->
+
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="md-form mb-0">
+                                            <input type="text" id="subject" name="subject" class="form-control">
+                                            <label for="subject" class="">Asunto</label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                                <!--Grid row-->
+                                <div class="row">
+
+                                    <!--Grid column-->
+                                    <div class="col-md-12">
+
+                                        <div class="md-form">
+                                            <textarea type="text" id="message" name="message" rows="2"
+                                                class="form-control md-textarea"></textarea>
+                                            <label for="message">Tu mensaje</label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <!--Grid row-->
+
+                            </form>
+
+                            <div class="text-center text-md-left">
+                                <a class="btn btn-primary"
+                                    onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                            </div>
+                            <div class="status"></div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-3 text-center">
+                            <ul class="list-unstyled mb-0">
+                                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                    <p>San Rafael Mendoza, CP 5600, Argentina</p>
+                                </li>
+
+                                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                    <p>+549 2604 35 29 00</p>
+                                </li>
+
+                                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                    <p>info@DAYSOFPLAY.com</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Grid column-->
+
+                    </div>
+
+                </section>
+                <!--Section: Contact v.2-->
+            </div>
         </div>
     </div>
+
+
 
     <footer class="foot">
         <!--pie-->
