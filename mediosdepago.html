@@ -8,7 +8,7 @@
     <meta name="description" content="Conoce los medios de pago que trabajamos para que realices tu compra">
     <meta name="keywords"
         content="comprar juegos de ps4, como pagar, medios de pago, tarjetas de crédito, payments methods">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <!-- CSS only -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -27,42 +27,44 @@
 </head>
 
 <body>
-    <div class="header">
-        <div class="encabezado">
-            <div class="container">
-                CONTÁCTANOS: 2604352000 - INFO@DAYSOFPLAY.COM
+    <header>
+        <div class="sticky-top">
+            <div class="header">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <div class="container">
+                        <a class="navbar-brand" href="index.html">
+                            <img src="images/logo.png" alt="logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-item nav-link" href="index.html">Inicio <span
+                                        class="sr-only">(current)</span></a>
+                                <a class="nav-item nav-link" href="juegosdeps4.html">Juegos PS4</a>
+                                <a class="nav-item nav-link active" href="mediosdepago.html">Medios de pago</a>
+                                <a class="nav-item nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
+                                <a class="nav-item nav-link" href="contactanos.html">Contáctanos</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
         </div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.png" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                        <a class="nav-item nav-link" href="juegosdeps4.html">Juegos PS4</a>
-                        <a class="nav-item nav-link active" href="mediosdepago.html">Medios de pago</a>
-                        <a class="nav-item nav-link" href="preguntasfrecuentes.html">Preguntas frecuentes</a>
-                        <a class="nav-item nav-link" href="contactanos.html">Contáctanos</a>
+    </header>
 
-                    </div>
-                </div>
-            </div>
-
-        </nav>
-    </div>
 
     <div class="container">
         <div class="row">
             <div class="col-lg-12 col-md-8">
-
                 <div class="maincontent__pagos">
-                    <h3 class="h5">PAGO FÁCIL (RECARGA DE MERCADOPAGO)</h3>
+                    <div class="titleBox">
+                        <h1 class="h4"> Medios de pago</h1>
+                    </div>
+                    <h2 class="h5">PAGO FÁCIL (RECARGA DE MERCADOPAGO)</h2>
                     <p class="maincontent__text">
                         Podes abonar en cualquier pago fácil del país con el código 0000 0000. Le decís al cajero
                         que
@@ -75,7 +77,7 @@
                         WhatsApp y te enviamos los datos y las instrucciones por ahí mismo.
                         Pagando con este método tenés un 10% de descuento.
                     </p>
-                    <h3 class="h5">MERCADOPAGO (Pago con tarjeta de crédito o débito)</h3>
+                    <h2 class="h5">MERCADOPAGO (Pago con tarjeta de crédito o débito)</h2>
                     <p class="maincontent__text">
                         Con tarjeta de crédito o débito podés pagar a través de un link de pago de MercadoPago que
                         debes
@@ -99,7 +101,7 @@
                         de $1000 y uno de $350 (Sólo enviando el pago de ésta forma, tenés el 10% de descuento).
                     </p>
 
-                    <h3 class="h5"> TRASFERENCIA BANCARIA (Brubank y Ualá) </h3>
+                    <h2 class="h5"> TRASFERENCIA BANCARIA (Brubank y Ualá) </h2>
                     <ol class="maincontent__text">
                         <li>Brubank</li>
                         <li>
@@ -125,32 +127,58 @@
             </div>
         </div>
     </div>
-
-    <footer class="foot">
-        <!--pie-->
-        <div class="susc">
-            <div class="footText">
-                <p>Suscribite a nuestro sitio para novedades</p>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="aboutus">
+                        <h2 class="h5">Nosotros</h2>
+                        <p>Tienda de juegos digitales para PS3 y PS4 con excelente servicio al cliente.</p>
+                        <p>Nos destacamos por nuestros precios bajos y la gran variedad de productos disponibles, somos
+                            líderes en venta a pocos meses de lanzarnos.</p>
+                        <p>Estamos en Facebook, Instagram o puedes escribirnos a nuestro email.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="susc">
+                        <div class="footText">
+                            <h2 class="h5">Suscribite a nuestro sitio para novedades</h2>
+                        </div>
+                        <div class="inputs">
+                            <input class="inputMail" type="email" name="nombre@email.com" />
+                            <input class="submitText" type="submit" value="Enviar">
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="inputs">
-                <input class="inputMail" type="email" name="nombre@email.com" />
-                <input class="submitText" type="submit" value="Enviar">
+        </div>
+        <div class="container">
+            <div class="cards">
+                <div class="footText">
+                    <p>Tarjetas que aceptamos</p>
+                </div>
+                <div class="creditCards">
+                    <p class="namecard1">VISA</p>
+                    <p class="namecard2">MASTER CARD</p>
+                    <p class="namecard3">AMERICAN EXPRESS</p>
+                </div>
+            </div>
+        </div>
+        <div class="socialm">
+            <div class="container">
+                <div class="row">
+                    <a class="itemsm" href="https://www.instagram.com" target="_blank"><img class="img_itemsm"
+                            src="images/insta2.png" alt="logo">Instagram</a>
+                    <a class="itemsm" href="https://www.Facebook.com" target="_blank"><img class="img_itemsm"
+                            src="images/face.png" alt="logo">Facebook</a>
+                    <a class="itemsm" href="https://www.Twitter.com" target="_blank"><img class="img_itemsm"
+                            src="images/twit.png" alt="logo">Twitter</a>
+
+                </div>
             </div>
 
         </div>
-        <div class="cards">
-            <div class="footText">
-                <p>Tarjetas que aceptamos</p>
-            </div>
-            <div class="creditCards">
-                <p class="namecard1">VISA</p>
-                <p class="namecard2">MASTER CARD</p>
-                <p class="namecard3">AMERICAN EXPRESS</p>
-            </div>
-        </div>
-
     </footer>
-
 </body>
 
 </html>
