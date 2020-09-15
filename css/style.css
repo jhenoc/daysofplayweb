@@ -1,6 +1,8 @@
 body { color: #24292E; margin: 0px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; min-height: 100vh; position: relative; }
 
-.sticky-top { background-color: #0474DB; }
+.sticky-top { background-color: #2065EA; }
+
+.navbar-collapse { -webkit-box-flex: 0; -ms-flex-positive: 0; flex-grow: 0; }
 
 #navbarNavAltMarkup { -webkit-box-pack: right; -ms-flex-pack: right; justify-content: right; }
 

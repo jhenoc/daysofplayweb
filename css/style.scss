@@ -1,6 +1,6 @@
 $light: #F4F4F4;
 $dark:#24292E;
-$blue:#0474DB;
+$blue:#2065EA;
 
 body {
     color: $dark;
@@ -14,18 +14,14 @@ body {
 .sticky-top {
     background-color: $blue;
 }
+.navbar-collapse{
+    flex-grow: 0;
+}
 
 #navbarNavAltMarkup {
     justify-content: right;
 }
 
-/*
-@media only screen and (max-width: 991px) {
-    .sticky-top {
-        background-color: black;
-    }
-}
-*/
 /*Inicio de presentacion*/
 .row {
     justify-content: center;
